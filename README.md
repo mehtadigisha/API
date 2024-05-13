@@ -1,6 +1,5 @@
-# Django OTP Authentication
-
-Welcome to the Django OTP Authentication project! This repository provides a guide and code for setting up OTP authentication in your Django and Django REST Framework application. Follow the steps below to set up and run the code.
+# Django API 
+"Simple Django API showcasing CRUD operations for managing products. Utilizes Django Rest Framework for efficient API development."
 
 ## Requirements
 
@@ -72,21 +71,3 @@ Before you get started, make sure you have the following installed:
     ```bash
     python manage.py runserver
     ```
-
-That's it! You should now have the OTP authentication set up and running in your Django application.
-
-## Code Overview
-
-- `models.py`: Defines the OTP model for storing OTPs and associated information.
-- `views.py`: Contains `LoginView` and `VerifyOTPView` to handle user login and OTP verification.
-- `urls.py`: Defines URL routes for the application.
-
-## Additional Notes
-
-- Make sure to customize the code according to your project's requirements.
-- For production use, consider enhancing security and performance.
-- Review the code and configurations for potential improvements or optimizations.
-
-## Contributing
-
-Feel free to contribute to this project! You can submit pull requests or open issues with suggestions for improvements.
